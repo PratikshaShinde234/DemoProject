@@ -15,6 +15,16 @@ GO <button type="button" name = "submit" routerLink="/login"> SUBMIT </button><b
    </div>
 </div>
 
+<button pButton type="button" label="Click" ></button>
+<br><br>
+<button pButton type="button" icon="pi pi-check" iconPos="left"></button>
+<br><br>
+<p-toast [style]="{marginTop: '80px'}"></p-toast>
+<h3 class="first">Basic</h3>
+<p-splitButton label="Save" icon="pi pi-file" (onClick)="save('info')" [model]="items"></p-splitButton>
+
+<br>
+
 <a routerLink="app-first-page">First Page</a>
 
 <router-outlet></router-outlet>
