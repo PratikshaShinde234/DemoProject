@@ -1,0 +1,46 @@
+<h1 class="header">{{title}}</h1>
+
+Enter First Name :<input type="text" name = "firstName"><br><br>
+Enter Last Name :<input type="text" name = "lastName"><br><br>
+Enter Mobile Number :<input type="text" name = "mbNum"><br><br>
+GO <button type="button" name = "submit" routerLink="/login"> SUBMIT </button><br>
+
+
+<br>
+
+<div class="ui-g-12 ui-md-4">
+   <div class="ui-inputgroup">
+       <span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+       <input type="text" pInputText placeholder="Username">         
+   </div>
+</div>
+
+<a routerLink="app-first-page">First Page</a>
+
+<router-outlet></router-outlet>
+
+<!-- <div> Months :
+    <select (change) = "changemonths($event)">
+       <option *ngFor="let i of months">{{i}}</option>
+    </select>
+ </div><br>
+
+ <div>
+    <span *ngIf="isavailable; else condition1">Condition is valid.</span>
+    <ng-template #condition1>Condition is invalid</ng-template>
+ </div><br>
+
+ <div>
+    <tbody>
+       <tr *ngFor = "let color of colors">
+          <td>{{color.color}}</td>
+          <td>{{color.category}}</td>
+       </tr>
+    </tbody>
+ </div>
+
+{{todaydate}} -->
+
+
+
+ 
